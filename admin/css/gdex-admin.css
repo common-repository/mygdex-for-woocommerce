@@ -1,0 +1,145 @@
+[v-cloak] {
+    display: none;
+}
+
+.form-field .error {
+    display: none;
+    color: crimson;
+}
+
+.form-field-error .error {
+    display: block;
+}
+
+#gdex-overview-widget .gdex-top-up-buttion {
+    float: right;
+    margin-top: 9px;
+}
+
+.post-type-shop_order .wp-list-table .column-gdex_consignment {
+    width: 8ch;
+}
+
+.post-type-shop_order .wp-list-table .column-gdex_shipping_estimate {
+    width: 8ch;
+    text-align: right;
+}
+
+.post-type-shop_order .wp-list-table .column-gdex_shipping_estimate .error {
+    color: crimson;
+}
+
+#adminmenu #toplevel_page_gdex .wp-menu-image img {
+    padding: 4px;
+    height: 34px;
+}
+
+.gdex_page_gdex_pickups .wp-list-table .column-id {
+    width: 12ch;
+}
+
+.gdex_page_gdex_pickups .wp-list-table .column-date {
+    width: 24ch;
+}
+
+.gdex_page_gdex_pickups .wp-list-table .column-transport {
+    width: 8ch;
+}
+
+.gdex_page_gdex_pickups .wp-list-table .column-actions {
+    width: 12ch;
+    text-align: right;
+}
+
+#gdex-shipment-order-data-meta-box {
+    /*display: none;*/
+}
+
+#gdex-shipment-order-data-meta-box .form-field label {
+    display: block;
+    line-height: 1.25rem;
+    padding-bottom: 0.25rem;
+}
+
+#gdex-shipment-order-data-meta-box .form-field label .spinner {
+    float: none;
+    margin: 0;
+}
+
+#gdex-shipment-order-data-meta-box .form-field select {
+    display: block;
+    width: 95%;
+}
+
+#gdex-shipment-order-data-meta-box .form-field .error {
+    display: none;
+    color: crimson;
+}
+
+#gdex-shipment-order-data-meta-box .form-field-error .error {
+    display: block;
+}
+
+#gdex-shipment-order-consignments-meta-box .inside {
+    margin: 0;
+    padding: 0;
+}
+
+#gdex-shipment-order-consignments-meta-box .wp-list-table {
+    border: none;
+}
+
+#gdex-shipment-order-consignments-meta-box .form-field .error {
+    display: none;
+    color: crimson;
+}
+
+#gdex-shipment-order-consignments-meta-box .form-field-error .error {
+    display: block;
+}
+
+.post-new-php.post-type-gdex-shipment-order #post-body-content {
+    display: none;
+}
+
+.edit-php.post-type-gdex-shipment-order .page-title-action {
+    display: none;
+}
+
+.edit-php.post-type-gdex-shipment-order #bulk-action-selector-top option[value="edit"] {
+    display: none;
+}
+
+#wp-admin-bar-new-gdex-consignment {
+    display: none;
+}
+
+#gdex-shipment-order-actions-meta-box .error {
+    color: crimson;
+}
+
+
+.edit-php.post-type-gdex-consignment .page-title-action {
+    display: none;
+}
+
+.edit-php.post-type-gdex-consignment #bulk-action-selector-top option[value="edit"] {
+    display: none;
+}
+
+.edit-php.post-type-gdex-invoice .page-title-action {
+    display: none;;
+}
+
+.edit-php.post-type-gdex-invoice #bulk-action-selector-top option[value="edit"] {
+    display: none;
+}
+
+#wp-admin-bar-new-gdex-invoice {
+    display: none;
+}
+
+.gdex-notice ul {
+    list-style: inherit;
+    padding: inherit;
+}
